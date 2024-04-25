@@ -1,0 +1,26 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    width: 20rem;
+    display: flex;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+button{
+    font-size: 20px;
+    border-radius: 5px;
+    width: 10rem;
+    background-color: skyblue;
+    margin-top: 10px;
+}
